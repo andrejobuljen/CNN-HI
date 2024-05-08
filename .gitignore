@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 ./CNN_analysis/.ipynb_checkpoints/
 ./Pk_analysis/.ipynb_checkpoints/
+./Pk_analysis/__pycache__/
+./CNN_analysis/__pycache__/
