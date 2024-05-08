@@ -1,0 +1,13 @@
+
+The following have been reloaded with a version change:
+  1) cuda/11.4.4 => cuda/11.4.4-ldlywt5
+
+is available:  True
+device count:  1
+current device:  0
+cuda device:  <torch.cuda.device object at 0x153ea52d97d0>
+cuda device name:  NVIDIA A100-SXM4-80GB
+cuda version:  11.8
+[I 2024-02-05 16:14:37,156] Using an existing study with name 'Pk2D_noise_kmax02_all_params' instead of creating a new one.
+/home/aobulj/data/conda/envs/torch_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(

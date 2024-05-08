@@ -1,0 +1,17 @@
+
+The following have been reloaded with a version change:
+  1) cuda/11.4.4 => cuda/11.4.4-ldlywt5
+
+is available:  True
+device count:  1
+current device:  0
+cuda device:  <torch.cuda.device object at 0x14dbea242350>
+cuda device name:  Tesla V100-SXM2-32GB
+cuda version:  11.8
+[I 2024-02-05 12:47:53,515] Using an existing study with name 'wd_dr_hidden_lr_full_noise_smooth2D_o3' instead of creating a new one.
+/home/aobulj/data/conda/envs/torch_env/lib/python3.11/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 20 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+[I 2024-02-05 18:16:18,235] Trial 18 finished with value: -10.7125244140625 and parameters: {'lr': 0.00019162143012564251, 'wd': 7.132710675889453e-07, 'dr': 0.8102312094202307, 'hidden': 8}. Best is trial 5 with value: -11.302824020385742.
+[I 2024-02-06 01:09:00,010] Trial 30 finished with value: -11.352455139160156 and parameters: {'lr': 0.0006754600282979495, 'wd': 2.8613137114184113e-06, 'dr': 0.3886086727108052, 'hidden': 11}. Best is trial 30 with value: -11.352455139160156.
+[I 2024-02-06 08:04:06,706] Trial 55 finished with value: -11.204545974731445 and parameters: {'lr': 0.00038264636775806895, 'wd': 0.0002211309626669663, 'dr': 0.31418619290780536, 'hidden': 11}. Best is trial 50 with value: -11.41134262084961.
+slurmstepd: error: *** JOB 9499035 ON u20-computeibmgpu-vesta11 CANCELLED AT 2024-02-06T12:48:04 DUE TO TIME LIMIT ***

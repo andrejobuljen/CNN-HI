@@ -1,0 +1,38 @@
+CUDA Available
+starting
+['/shares/stadel.ics.mnf.uzh/aobulj/hifi_mocks_Paco_noise/maps_1000_kmax2D_0.20.npy']
+
+Trial number: 6
+Fields: ['fiducial']
+lr: 1.1344134384693786e-05
+wd: 0.004100643992103352
+dr: 0.06099379465265178
+hidden: 7
+
+Preparing datasets...
+size_maps, size_sims, splits 21600 900 24
+Found 1 channels
+Reading data...
+-2.392e+00 < F(all|orig) < 1.110e+01
+-11.316 < F(all|norm) < 17.568
+size_maps, size_sims, splits 1200 50 24
+Found 1 channels
+Reading data...
+-2.392e+00 < F(all|orig) < 1.110e+01
+-11.316 < F(all|norm) < 17.568
+Channel 0 contains 9600 maps
+-6.746 < F < 10.729
+
+size_maps, size_sims, splits 1200 50 24
+Found 1 channels
+Reading data...
+-2.392e+00 < F(all|orig) < 1.110e+01
+-11.316 < F(all|norm) < 17.568
+Channel 0 contains 9600 maps
+-9.752 < F < 14.721
+
+total number of parameters in the model = 11521592
+Computing initial validation loss
+Initial valid loss = 3.578e+00
+000 6.595e+00 4.054e+00 6.106e+00 
+001 5.304e+00 2.897e+00 4.478e+00 (C) 
